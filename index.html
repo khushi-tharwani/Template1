@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="head-phone.svg" style="width: 50px; height: 50px;" class="icon">
+        <h1>Get in Touch!</h1>
+        <p class="tagline">Bake Your Mark with Pango</p>
+    </div>
+    <div class="container">
+        
+        <form class="contact-form  left">
+            <label for="name" class="label-contact-form">Name</label>
+            <input type="text" id="border" placeholder="Your Name is" required>
+
+            <label for="email" class="label-contact-form">Email</label>
+            <input type="email" id="border"  placeholder="Where can we email you" required>
+
+            <label for="phone" class="label-contact-form">Phone Number</label>
+            <input type="tel" id="border"  placeholder="Your phone number" required>
+
+            <label for="message" class="label-contact-form">Message</label>
+            <textarea id="border"  placeholder="What do you want..." required></textarea>
+
+            <button type="submit" class="label-contact-form">Submit</button>
+        </form>
+        <div class="contact-info right">
+            <div class="card purple">
+                <img src="phone.svg" alt="">
+                <p>+91 9820840946</p>
+            </div>
+
+            <div class="card blue">
+                <p>Click on a Button</p>
+            </div>
+
+            <div class="card yellow">
+                <img src="location.svg" alt="">
+                <p>Mahalaxmi, Mumbai</p>
+            </div>
+
+            <div class="card green">
+                <img src="mail.svg" alt="">
+                <p>azhar.ali.sayed@pango.in</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
